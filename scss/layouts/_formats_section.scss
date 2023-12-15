@@ -1,0 +1,29 @@
+/* format section */
+.formats-section {
+    &__container {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    }
+    /* justify-content: space-between; */
+
+    &__title {
+        margin-bottom: 80px;
+    }
+
+    &__list {
+        display: flex;
+        gap: 20px;
+        /* flex-wrap: wrap; */
+    }
+}
+    /* &__formats-item {
+    flex-basis: calc(100% - 40px / 3);
+} 
+
+
+
+
+/* &__formats-item {
+    flex-basis: calc(100% - 40px / 3);
+} */
